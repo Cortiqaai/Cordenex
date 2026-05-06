@@ -1,0 +1,39 @@
+# Cordenex - Distribution Repository Gitignore
+
+# Binaries
+# *.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+build/
+
+# Source Code (Safety - in case they are copied)
+internal/
+pkg/
+cmd/
+*.go
+go.mod
+go.sum
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+journal.json

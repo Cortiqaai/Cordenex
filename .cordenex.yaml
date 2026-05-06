@@ -1,0 +1,20 @@
+# Corde-Nex Project Configuration
+# https://docs.cortiqa.com/cordenex/project-config
+
+project_type: go
+
+# Custom rules for the AI assistant
+rules:
+  # - "Always use error wrapping with fmt.Errorf"
+  # - "Follow the repository's existing code style"
+
+# Files/directories to exclude from context
+ignore:
+  - node_modules
+  - vendor
+  - dist
+  - build
+  - .git
+
+# Default model for this project
+# model: gpt-4o-mini

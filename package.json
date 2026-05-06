@@ -1,0 +1,34 @@
+{
+  "name": "@cortiqa/cordenex",
+  "version": "0.1.23",
+  "description": "Cordenex — AI-Powered Autonomous Coding Assistant with Parallel Execution",
+  "main": "index.js",
+  "files": [
+    "bin/",
+    "bin/cordenex.exe",
+    "README.md",
+    "package.json"
+  ],
+  "bin": {
+    "cordenex": "./bin/cordenex.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "go build -o build/cordenex.exe ./cmd/cordenex",
+    "install-local": "go build -o bin/cordenex.exe ./cmd/cordenex"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "coding",
+    "assistant",
+    "cli",
+    "go",
+    "autonomous"
+  ],
+  "author": "Cortiqa",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
